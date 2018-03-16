@@ -1,0 +1,15 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+header, footer {
+    background-color: #000010;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+router-outlet {
+    flex-grow: 1
+}
